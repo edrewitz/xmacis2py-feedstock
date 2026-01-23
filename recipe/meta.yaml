@@ -1,5 +1,5 @@
 {% set name = "xmacis2py" %}
-{% set version = "2.2" %}
+{% set version = "2.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/xmacis2py-{{ version }}.tar.gz
-  sha256: 47c5c62c6328d6eb59cd2c27f475c67468f0f4cfb9848154ee998c3970396b27
+  sha256: 5f0a2210602e39eb80efac5e044a600497e71cd1d4bdd5d91d571ec7013db540
 
 build:
   noarch: python
