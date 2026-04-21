@@ -7,7 +7,7 @@ Home: https://github.com/edrewitz/xmACIS2Py
 
 Package license: MIT
 
-Summary: ACIS2 Data Analysis and Graphical Generation
+Summary: A Python package that brings the xmACIS2 Climate Analysis Tool into the Python Ecosystem
 
 Development: https://github.com/edrewitz/xmACIS2Py
 

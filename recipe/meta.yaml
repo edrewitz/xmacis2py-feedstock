@@ -1,5 +1,5 @@
 {% set name = "xmacis2py" %}
-{% set version = "2.2.3" %}
+{% set version = "2.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/xmacis2py-{{ version }}.tar.gz
-  sha256: 28529d866a960e265772951db8604a40a44b8483a1f619458aacc5168c5c2f44
+  sha256: 75c1fda5601a5b4f63c5899c26f8ce274246c15d20a051fdc0affe6667c4ea6e
 
 build:
   noarch: python
@@ -36,7 +36,7 @@ test:
 
 about:
   home: https://github.com/edrewitz/xmACIS2Py
-  summary: ACIS2 Data Analysis and Graphical Generation
+  summary: A Python package that brings the xmACIS2 Climate Analysis Tool into the Python Ecosystem
   license: MIT
   license_file: LICENSE
   doc_url: https://pypi.org/project/xmacis2py/
