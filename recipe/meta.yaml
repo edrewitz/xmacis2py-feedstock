@@ -23,8 +23,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - matplotlib-base >=3.7
-    - wxdata >=1.6
-    - scipy >=1.15.3
+    - wxdata >=1.6.1
 
 test:
   imports:
