@@ -1,5 +1,5 @@
 {% set name = "xmacis2py" %}
-{% set version = "2.5.1" %}
+{% set version = "2.5.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/xmacis2py-{{ version }}.tar.gz
-  sha256: b2a77396747159ac4dffc1c9995fc1cd4cc0d409156b4d7fa48d047441c45845
+  sha256: 8a8238d5d6123f6d00c15156e034c127d889cdaa95188809b5fa403c6ae33482
 
 build:
   noarch: python
@@ -23,7 +23,10 @@ requirements:
   run:
     - python >={{ python_min }}
     - matplotlib-base >=3.7
-    - wxdata >=1.6.1
+    - requests >=2.32.5
+    - pandas >=2.3.3
+    - numpy >=2.2.6
+    - scipy >=1.15.3
 
 test:
   imports:
